@@ -4,5 +4,5 @@ This Application is designed for doctors running their own clinic, to maintain a
 
   ## Main Functions ##
   
-## Add Patient, Delete Patient, Search Patient ##
+### Add Patient, Delete Patient, Search Patient ###
 #
