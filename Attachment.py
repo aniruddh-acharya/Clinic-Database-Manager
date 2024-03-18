@@ -6,6 +6,7 @@ Created on Tue Jun  8 19:04:19 2021
 """
 
 import sqlite3
+from tkinter import messagebox
 import PIL
 from tkinter import *
 from tkinter import filedialog
@@ -17,19 +18,15 @@ global datestring
 today = datetime.date.today()
 datestring=str(today.day)+"/"+str(today.month)+"/"+str(today.year)
 
-
 def attach_file():
  
-    conn=sqlite3.connect('Clinic_Database.db')
-    c=conn.cursor()
-  
     att=Tk()
     att.title('Saving Attachment')
     att.iconbitmap("shree_brahmi.ico")
     
     def find():
         conn=sqlite3.connect('Clinic_Database.db')
-        c=conn.cursor()
+        cursor=conn.cursor()
         att.filename=filedialog.askopenfilename(initialdir="C:/", title="Select A File",filetypes=(("All files","*.*"),("png files","*.png"),("jpg files","*.jpg"),("jpeg files","*.jpeg"),("pdf files","*.pdf")))
        
         split_tup = os.path.splitext(att.filename)
@@ -42,21 +39,29 @@ def attach_file():
             ftype=2
         if(file_extension==".xls" or file_extension==".xlsx" or file_extension==".csv"):
             ftype=3
+        if(file_extension==".mp4"):
+            ftype=4
+        if(file_extension==".mkv"):
+            ftype=5
+        if(file_extension==".avi"):
+            ftype=6
+        if(file_extension==".mpeg"):
+            ftype=7
             
         
         with open(att.filename, "rb") as file:
             blob=file.read()
         
-        c.execute("SELECT Name FROM PatientData WHERE File_Number LIKE '%"+ str(fileno.get())+"%' LIMIT 1")
-        records=c.fetchall()
+        cursor.execute("SELECT Name FROM PatientData WHERE File_Number LIKE '%"+ str(fileno.get())+"%' LIMIT 1")
+        records=cursor.fetchall()
         name=records[0][0]
         
-        c.execute("SELECT * FROM Attachment")
-        records=c.fetchall()
+        cursor.execute("SELECT * FROM Attachment")
+        records=cursor.fetchall()
         sl_no=len(records)+1
         
-        c.execute("INSERT INTO Attachment (Sl_No,File_Number,Name,File,Description,Date,Format) VALUES (?,?,?,?,?,?,?)",(sl_no,fileno.get(),name,blob,description.get(),datestring,ftype))
-        c.close()
+        cursor.execute("INSERT INTO Attachment (Sl_No,File_Number,Name,File,Description,Date,Format) VALUES (?,?,?,?,?,?,?)",(sl_no,fileno.get(),name,blob,description.get(),datestring,ftype))
+        cursor.close()
         conn.commit()
         
         messagebox.showinfo("Added","The File has been Successfuly added to the database!")
@@ -83,7 +88,7 @@ def attach_file():
 def retrieve_file():
 
     conn=sqlite3.connect('Clinic_Database.db')
-    c=conn.cursor()
+    cursor=conn.cursor()
     
     def open_document():
         sel=ret_table.selection()[0]
@@ -104,6 +109,26 @@ def retrieve_file():
                 f.write(blob)
                 os.startfile("attachments\document.xlsx")
         
+        elif(records[int(sel)-1][6]==4):
+            with open("attachments\document.mp4",'wb')as f:
+                f.write(blob)
+                os.startfile("attachments\document.mp4")
+        
+        elif(records[int(sel)-1][6]==5):
+            with open("attachments\document.mkv",'wb')as f:
+                f.write(blob)
+                os.startfile("attachments\document.mkv")
+        
+        elif(records[int(sel)-1][6]==6):
+            with open("attachments\document.avi",'wb')as f:
+                f.write(blob)
+                os.startfile("attachments\document.avi")
+        
+        elif(records[int(sel)-1][6]==7):
+            with open("attachments\document.mpeg",'wb')as f:
+                f.write(blob)
+                os.startfile("attachments\document.mpeg")
+        
         else:
             with open("attachments\image.png",'wb')as f:
                 f.write(blob)
@@ -114,9 +139,9 @@ def retrieve_file():
         for x in ret_table.get_children():
             ret_table.delete(x)
             
-        c.execute("SELECT * FROM Attachment WHERE Name LIKE '%"+ str(filter_entry.get())+"%'") 
+        cursor.execute("SELECT * FROM Attachment WHERE Name LIKE '%"+ str(filter_entry.get())+"%'") 
 
-        records=c.fetchall()
+        records=cursor.fetchall()
 
         for record in records:
             ret_table.insert(parent='',index='end', iid=record[0], text=record[0], values=(record[1],record[2],record[4],record[5],record[6]))
@@ -159,9 +184,9 @@ def retrieve_file():
     
     ret_table.pack()
     
-    c.execute("SELECT * FROM Attachment") 
+    cursor.execute("SELECT * FROM Attachment") 
 
-    records=c.fetchall()
+    records=cursor.fetchall()
 
     for record in records:
         ret_table.insert(parent='',index='end', iid=record[0], text=record[0], values=(record[1],record[2],record[4],record[5],record[6]))

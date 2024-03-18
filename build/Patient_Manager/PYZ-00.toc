@@ -1,0 +1,1532 @@
+('C:\\Users\\Aniruddh '
+ 'Acharya\\OneDrive\\PatientManager\\build\\Patient_Manager\\PYZ-00.pyz',
+ [('os',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\os.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\selectors.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\struct.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('configparser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\socket.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\random.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ssl.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\getopt.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('contextvars',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\typing.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\queue.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\secrets.py',
+   'PYMODULE'),
+  ('hmac',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\hmac.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\optparse.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\numbers.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tty.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\cmd.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ast.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\token.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('ntpath',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\stat.py',
+   'PYMODULE'),
+  ('pywintypes',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('win32com',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('commctrl',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('Attachment',
+   'C:\\Users\\Aniruddh Acharya\\OneDrive\\PatientManager\\Attachment.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('Expenditure',
+   'C:\\Users\\Aniruddh Acharya\\OneDrive\\PatientManager\\Expenditure.py',
+   'PYMODULE'),
+  ('xlwings',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.server',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\server.py',
+   'PYMODULE'),
+  ('xlwings.udfs',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\udfs.py',
+   'PYMODULE'),
+  ('xlwings.pro.embedded_code',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\embedded_code.py',
+   'PYMODULE'),
+  ('xlwings.pro.module_permissions',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\module_permissions.py',
+   'PYMODULE'),
+  ('xlwings.pro.utils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\utils.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('xlwings.utils',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\utils.py',
+   'PYMODULE'),
+  ('xlwings.conversion',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\conversion\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.pro.reports.markdown',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\reports\\markdown.py',
+   'PYMODULE'),
+  ('xlwings.pro.reports',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\reports\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.pro.reports.main',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\reports\\main.py',
+   'PYMODULE'),
+  ('xlwings.conversion.pandas_conv',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\conversion\\pandas_conv.py',
+   'PYMODULE'),
+  ('xlwings.conversion.numpy_conv',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\conversion\\numpy_conv.py',
+   'PYMODULE'),
+  ('xlwings.conversion.standard',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\conversion\\standard.py',
+   'PYMODULE'),
+  ('xlwings.conversion.framework',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\conversion\\framework.py',
+   'PYMODULE'),
+  ('xlwings.pro',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.main',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\main.py',
+   'PYMODULE'),
+  ('xlwings.pro.tables',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\pro\\tables.py',
+   'PYMODULE'),
+  ('xlwings.expansion',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\expansion.py',
+   'PYMODULE'),
+  ('xlwings.mistune',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\__init__.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins.task_lists',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\task_lists.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins.table',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\table.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins.footnotes',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\footnotes.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins.extra',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\extra.py',
+   'PYMODULE'),
+  ('xlwings.mistune.plugins.def_list',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\plugins\\def_list.py',
+   'PYMODULE'),
+  ('xlwings.mistune.scanner',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\scanner.py',
+   'PYMODULE'),
+  ('xlwings.mistune.renderers',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\renderers.py',
+   'PYMODULE'),
+  ('xlwings.mistune.inline_parser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\inline_parser.py',
+   'PYMODULE'),
+  ('xlwings.mistune.block_parser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\block_parser.py',
+   'PYMODULE'),
+  ('xlwings.mistune.markdown',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mistune\\markdown.py',
+   'PYMODULE'),
+  ('xlwings._xlmac',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\_xlmac.py',
+   'PYMODULE'),
+  ('xlwings.constants',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\constants.py',
+   'PYMODULE'),
+  ('xlwings.mac_dict',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\mac_dict.py',
+   'PYMODULE'),
+  ('xlwings._xlwindows',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\xlwings\\_xlwindows.py',
+   'PYMODULE'),
+  ('win32timezone',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\win32\\lib\\win32timezone.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\datetime.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.Image',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('fractions',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\fractions.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('PIL',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
+  ('tkinter',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('sqlite3',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\__init__.py',
+   'PYMODULE'),
+  ('sqlite3.dump',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\dump.py',
+   'PYMODULE'),
+  ('sqlite3.dbapi2',
+   'c:\\users\\aniruddh '
+   'acharya\\appdata\\local\\programs\\python\\python38\\lib\\sqlite3\\dbapi2.py',
+   'PYMODULE')])
