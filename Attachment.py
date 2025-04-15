@@ -97,42 +97,42 @@ def retrieve_file():
         if(records[int(sel)-1][6]==1):
             with open("attachments\document.pdf",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.pdf")
+                os.startfile(r"attachments\document.pdf")
                     
         elif(records[int(sel)-1][6]==2):
             with open("attachments\document.docx",'wb')as f:
                 f.write(blob)
-                os.startfile("document.docx")
+                os.startfile(r"document.docx")
                 
         elif(records[int(sel)-1][6]==3):
             with open("attachments\document.xlsx",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.xlsx")
+                os.startfile(r"attachments\document.xlsx")
         
         elif(records[int(sel)-1][6]==4):
             with open("attachments\document.mp4",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.mp4")
+                os.startfile(r"attachments\document.mp4")
         
         elif(records[int(sel)-1][6]==5):
             with open("attachments\document.mkv",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.mkv")
+                os.startfile(r"attachments\document.mkv")
         
         elif(records[int(sel)-1][6]==6):
             with open("attachments\document.avi",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.avi")
+                os.startfile(r"attachments\document.avi")
         
         elif(records[int(sel)-1][6]==7):
             with open("attachments\document.mpeg",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\document.mpeg")
+                os.startfile(r"attachments\document.mpeg")
         
         else:
             with open("attachments\image.png",'wb')as f:
                 f.write(blob)
-                os.startfile("attachments\image.png")
+                os.startfile(r"attachments\image.png")
 
     
     def filter_document():
