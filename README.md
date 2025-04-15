@@ -21,10 +21,10 @@ Updates an Entry based on File Number and adds regular updation of patient detai
 ## Expenditure Functions ##
 
 ### Add Expense ###
-Adds transaction Details to the databse to keep a record of it
+Adds transaction Details along with bill details to the databse to keep a record of it
 
-### Search Expense ###
-Searches transaction Details for an entry or entries based on certain parameters
+### Query Transactions ###
+Queries through transactions or bills for an entry or entries based on certain parameters and report can be generated for any of these queries
 
 ### View Database ###
 Allows browsing of the Transactions

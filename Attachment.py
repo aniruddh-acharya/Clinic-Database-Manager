@@ -95,44 +95,44 @@ def retrieve_file():
         blob=records[int(sel)-1][3]
         
         if(records[int(sel)-1][6]==1):
-            with open("attachments\document.pdf",'wb')as f:
+            with open("attachments\\document.pdf",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.pdf")
+                os.startfile("attachments\\document.pdf")
                     
         elif(records[int(sel)-1][6]==2):
-            with open("attachments\document.docx",'wb')as f:
+            with open("attachments\\document.docx",'wb')as f:
                 f.write(blob)
                 os.startfile(r"document.docx")
                 
         elif(records[int(sel)-1][6]==3):
-            with open("attachments\document.xlsx",'wb')as f:
+            with open("attachments\\document.xlsx",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.xlsx")
+                os.startfile("attachments\\document.xlsx")
         
         elif(records[int(sel)-1][6]==4):
-            with open("attachments\document.mp4",'wb')as f:
+            with open("attachments\\document.mp4",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.mp4")
+                os.startfile("attachments\\document.mp4")
         
         elif(records[int(sel)-1][6]==5):
-            with open("attachments\document.mkv",'wb')as f:
+            with open("attachments\\document.mkv",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.mkv")
+                os.startfile(r"attachments\\document.mkv")
         
         elif(records[int(sel)-1][6]==6):
-            with open("attachments\document.avi",'wb')as f:
+            with open("attachments\\document.avi",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.avi")
+                os.startfile("attachments\\document.avi")
         
         elif(records[int(sel)-1][6]==7):
-            with open("attachments\document.mpeg",'wb')as f:
+            with open("attachments\\document.mpeg",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\document.mpeg")
+                os.startfile("attachments\\document.mpeg")
         
         else:
-            with open("attachments\image.png",'wb')as f:
+            with open("attachments\\image.png",'wb')as f:
                 f.write(blob)
-                os.startfile(r"attachments\image.png")
+                os.startfile("attachments\\image.png")
 
     
     def filter_document():

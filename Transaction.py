@@ -68,10 +68,10 @@ def add_entry():
         date.grid(row=2,column=1)
         Radiobutton(ed,text="Income", variable=ie, value=0).grid(row=3,column=0,padx=1)
         Radiobutton(ed,text="Expense", variable=ie, value=1).grid(row=3,column=1,padx=1)   
-        Radiobutton(ed,text="None", variable=oc, value=0).grid(row=4,column=0,padx=1)
+        Radiobutton(ed,text="Consultation", variable=oc, value=0).grid(row=4,column=0,padx=1)
         Radiobutton(ed,text="Opex", variable=oc, value=1).grid(row=4,column=1,padx=1)
         Radiobutton(ed,text="Capex", variable=oc, value=2).grid(row=4,column=2,padx=1)
-        Radiobutton(ed,text="Consultation", variable=oc, value=3).grid(row=4,column=3,padx=1)
+        Radiobutton(ed,text="Medicine", variable=oc, value=3).grid(row=4,column=3,padx=1)
         Radiobutton(ed,text="Cash", variable=tp, value=0).grid(row=5,column=0,padx=1)
         Radiobutton(ed,text="UPI", variable=tp, value=1).grid(row=5,column=1,padx=1)
         Radiobutton(ed,text="NEFT", variable=tp, value=2).grid(row=5,column=2,padx=1)
@@ -230,7 +230,7 @@ def add_entry():
             elif ie.get()==1:
                 iec="Expense"
             if oc.get()==0:
-                occ="None"
+                occ="Consultation"
             elif oc.get()==1:
                 occ="Opex"
             elif oc.get()==2:
@@ -247,13 +247,13 @@ def add_entry():
                 tpc="Credit/Debit"        
             
             try:
-                cursor.execute("INSERT INTO TransactionData (File_Number,Name,Date,\"Income/Expense\",\"Opex/Capex\",\"Type_Payment\",Amount,Description) VALUES (:fileno,:name,:date,:incomeexpense,:opexcapex,:typepayment,:amount,:description)",
+                cursor.execute("INSERT INTO TransactionData (File_Number,Name,Date,\"Income/Expense\",\"Transaction_Type\",\"Payment_Mode\",Amount,Description) VALUES (:fileno,:name,:date,:incomeExpense,:transactionType,:paymentMode,:amount,:description)",
                     { 'fileno':fileno.get(),
                     'name':name.get(),
                     'date':datestring,
-                    'incomeexpense':str(iec),
-                    'opexcapex':str(occ),
-                    'typepayment':str(tpc),
+                    'incomeExpense':str(iec),
+                    'transactionType':str(occ),
+                    'paymentMode':str(tpc),
                     'amount':int(amount.get()),
                     'description':str(description.get("1.0","end-1c"))
                     } )
@@ -444,9 +444,9 @@ def query_transactions():
         view_list = ttk.Treeview(view_frame, height=27, yscrollcommand=view_scrollbar.set)
         view_scrollbar.config(command=view_list.yview)
 
-        view_list['columns'] = ("File Number", "Name", "Amount", "Date", "Income/Expense", "Opex/Capex", "Payment Type", "Description")
+        view_list['columns'] = ("File Number", "Name", "Amount", "Date", "Income/Expense", "Transaction Type", "Payment Mode", "Description")
 
-        for column in ("#0", "File Number", "Name", "Amount", "Date", "Income/Expense", "Opex/Capex", "Payment Type", "Description"):
+        for column in ("#0", "File Number", "Name", "Amount", "Date", "Income/Expense", "Transaction Type", "Payment Mode", "Description"):
             view_list.column(column, width=100, minwidth=50)
             view_list.heading(column, text=column)
 
