@@ -9,7 +9,6 @@ import json
 import sqlite3
 from tkinter import *
 import traceback
-from PIL import ImageTk, Image
 import datetime
 from tkinter import ttk
 from tkinter import messagebox
@@ -318,6 +317,8 @@ def query_transactions():
     table_option.set(0)
     query_option=IntVar()
     query_option.set(0)
+    strict_query=IntVar()
+    strict_query.set(0)
 
     option_frame=Frame(queryTrans)
     option_frame.pack(fill=BOTH, expand=True)
@@ -353,6 +354,7 @@ def query_transactions():
 
     Label(file_frame, text="Enter File Number:", font=('Helvetica', 12)).pack(side=LEFT, padx=10)
     fileno_search_entry = Entry(file_frame, font=('Helvetica', 12))
+    Checkbutton(file_frame,text="Strict", variable=strict_query, onvalue=1, offvalue=0, font=('Helvetica', 12, 'bold')).pack(side=RIGHT, padx=10)
     fileno_search_entry.pack(side=LEFT, padx=10, pady=10)
 
     Label(time_span_frame, text="Start Date:", font=('Helvetica', 12)).pack(side=LEFT, padx=10)
@@ -409,7 +411,10 @@ def query_transactions():
 
     def search_by_file_number():
         try:
-            cursor.execute("SELECT * FROM TransactionData WHERE File_Number LIKE ?", ('%' + fileno_search_entry.get() + '%',))
+            if strict_query.get() == 1:
+                cursor.execute("SELECT * FROM TransactionData WHERE File_Number LIKE ?", (fileno_search_entry.get(),))
+            else:
+                cursor.execute("SELECT * FROM TransactionData WHERE File_Number LIKE ?", ('%' + fileno_search_entry.get() + '%',))
             records = cursor.fetchall()
             display_transaction_records(records)
         except sqlite3.Error as e:
