@@ -409,7 +409,7 @@ def query_transactions():
 
     def search_by_file_number():
         try:
-            cursor.execute("SELECT * FROM TransactionData WHERE File_Number LIKE ?", (fileno_search_entry.get(),))
+            cursor.execute("SELECT * FROM TransactionData WHERE File_Number LIKE ?", ('%' + fileno_search_entry.get() + '%',))
             records = cursor.fetchall()
             display_transaction_records(records)
         except sqlite3.Error as e:
